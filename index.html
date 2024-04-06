@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InnovaInbox</title>
+
+    <link rel="shortcut icon" href="img/logo_imagen.png" type="image/x-icon">
+    <link rel="icon" href="img/logo_imagen.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -19,26 +23,25 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="img/logo-texto.png" alt="InnovatInbox Logo" width="220" height="50">
+          &nbsp;&nbsp;<img src="img/logo-texto.png" alt="InnovatInbox Logo" width="220" >
         </a>
 
         <!-- Botón hamburguesa -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="navbar-nav mr-auto">
+        <div class="" id="navbarNav">
+          <div class="options">
             <a class="nav-item nav-link" href="#nosotros" data-scroll>Nosotros</a>
             <a class="nav-item nav-link" href="#servicios" data-scroll>Recursos</a>
-            <!-- <a class="nav-item nav-link" href="#planes-precios" data-scroll>Planes y precios</a> -->
             <a class="nav-item nav-link" href="#contacto" data-scroll>Contacto</a>
           </div>
 
-          <div class="navbar-nav ml-auto">
+          <!-- <div class="navbar-nav ml-auto">
             <a class="custom-btn outlined-btn" href="#">Iniciar Sesión</a>
             <a class="custom-btn solid-btn" href="#">Regístrate Gratis</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </nav>
@@ -49,8 +52,8 @@
         <div class="row">
 
           <div class="col-lg-6">
-            <h1 class="display-4">Transformamos correos electrónicos en resultados reales</h1>
-            <p class="lead" style="margin-top: 30px;">Expanda sus horizontes con InnovatInbox Email Marketing. Gestione y supervise sus correos electrónicos, integre de manera sencilla un formulario de registro en su sitio web para aumentar suscriptores. <br> Explore las ventajas de elegir nuestros servicios de marketing digital.</p>
+            <h1 class="display-4">Transformamos estrategias de marketing en resultados reales</h1>
+            <p class="lead" style="margin-top: 30px;">Expanda sus horizontes con InnovatInbox. <br> Explore las ventajas de elegir nuestros servicios de marketing digital.</p>
           </div>
 
           <div class="col-lg-6">
@@ -75,46 +78,14 @@
               <div class="col-lg-6">
                 <div class="section-text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eu tortor imperdiet varius. Nullam euismod mi id urna mollis fringilla. Quisque vel eros ligula. In hac habitasse platea dictumst. Curabitur vel dui quis sapien sollicitudin rhoncus a non libero.
+                    Desde nuestra fundación en 2023, en innovatInbox, nos hemos destacado como líderes en el campo del marketing digital. Ofrecemos un servicio personalizado y directo, adaptando nuestras estrategias para obtener los mejores resultados. Nos esforzamos por mantenernos a la vanguardia de las últimas tendencias y tecnologías, reflejando nuestro compromiso con la excelencia y la innovación.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
-  <!-- 
-        <section id="servicios" class="services-section">
-          <div class="container text-center">
-
-            <h2 class="service-section-title">Mira lo que InnovatInbox puede hacer por vos</h2>
-            <div class="row">
-
-              <div class="col-lg-6 mb-4">
-                <div class="service-card">
-                  <i class="fas fa-envelope"></i>
-                  <h3>Email Marketing</h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eu tortor imperdiet varius.
-                  </p>
-                  <a href="#" class="read-more">Ver más <span class="arrow">&#10148;</span></a>
-                </div>
-              </div>
-
-              <div class="col-lg-6 mb-4">
-                <div class="service-card">
-                  <i class="fas fa-exchange-alt"></i>
-                  <h3>Correos Transaccionales</h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eu tortor imperdiet varius.
-                  </p>
-                  <a href="#" class="read-more">Ver más <span class="arrow">&#10148;</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-
+        
   <!-- ---------------------------------------------- -->
 
         <section id="servicios">
@@ -122,18 +93,67 @@
             <h2 class="section-title">Mira lo que InnovatInbox puede hacer por vos</h2>
             <div class="sub-section">
               <div class="content">
-                <h3>Email Marketing</h3>
-                <p class="sub-section-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias velit ducimus quam aliquid ipsam rem consequuntur sapiente quibusdam rerum, nisi laboriosam assumenda accusantium qui id adipisci, fugiat dicta, dolorum repellendus. Magni quo nam itaque quos? Illum aliquid consequatur sit accusamus harum et quos voluptas, similique, impedit quia consequuntur expedita suscipit. Quae eos molestiae nesciunt ea. Nam laudantium esse, molestias, eligendi nisi, quo modi pariatur dolore cumque animi saepe beatae quod?</p>
-                <p class="small-text"><a href="#">Ver más ➤</a></p>
+                <h3><span id="highlighted">Estrategias de Marketing Digital</span> para Impulsar su Negocio</h3>
+                <h6 class="subtitle">Maximice su Presencia en Línea con Nuestras Estrategias Personalizadas</h6>
+                <p class="sub-section-text">El marketing digital es fundamental para el éxito en el mundo digital actual. En innovatInbox, comprendemos la importancia de implementar estrategias efectivas que impulsen la visibilidad y el crecimiento de su negocio en línea.</p>
+                <!-- <p class="small-text"><a href="#">Ver más ➤</a></p> -->
               </div>
-              <img src="img/emailLanding.png" alt="Email Marketing Image" class="sub-section-image">
+              <img src="img/services (6).png" alt="Email Marketing Image" class="sub-section-image">
             </div>
             <div class="sub-section reverse">
-              <img src="img/ContactUsLanding.png" alt="Otra Imagen" class="sub-section-image">
+              <img src="img/services (3).png" alt="Otra Imagen" class="sub-section-image">
               <div class="content">
-                <h3>Correos Transaccionales</h3>
-                <p class="sub-section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus nemo, eius quo, fugiat vitae consectetur repellendus iste dolorem maxime dolorum possimus odio. Itaque autem quia expedita quibusdam voluptatum? Consequuntur sunt magnam neque modi, minus quis consectetur repellendus nam qui dolorem animi saepe cum laborum hic aut quo quisquam accusantium illo omnis. Doloribus rerum dolores nesciunt saepe nihil blanditiis ipsum optio!</p>
-                <p class="small-text"><a href="#">Ver más ➤</a></p>
+                <h3>Maximice su Visibilidad en Línea con <span id="highlighted">Estrategias de SEO</span></h3>
+                <p class="sub-section-text">El SEO (Search Engine Optimization) es una parte fundamental de cualquier estrategia de marketing digital exitosa. En innovatInbox, ofrecemos servicios de SEO altamente efectivos para ayudarlo a mejorar su visibilidad en línea y atraer tráfico cualificado a su sitio web.</p>
+                <!-- <p class="small-text"><a href="#">Ver más ➤</a></p> -->
+              </div>
+            </div>
+            <div class="sub-section">
+              <div class="content">
+                <h3>Aumente su Alcance y Obtenga Resultados Instantáneos con <span id="highlighted">Estrategias SEM</span></h3>
+                <p class="sub-section-text">El SEM (Search Engine Marketing) es una herramienta poderosa para aumentar la visibilidad de su negocio en línea y generar resultados rápidos. En innovatInbox, ofrecemos servicios de SEM personalizados para ayudarlo a alcanzar sus objetivos comerciales de manera efectiva y eficiente.</p>
+                <!-- <p class="small-text"><a href="#">Ver más ➤</a></p> -->
+              </div>
+              <img src="img/services (5).png" alt="Email Marketing Image" class="sub-section-image">
+            </div>
+            <div class="sub-section reverse">
+              <img src="img/services (1).png" alt="Otra Imagen" class="sub-section-image">
+              <div class="content">
+                <h3>Maximice su Presencia en las <span id="highlighted">Redes Sociales</span> con Nuestra Gestión Profesional</h3>
+                <p class="sub-section-text">La gestión de redes sociales es esencial en la era digital. En innovatInbox, ofrecemos servicios especializados para optimizar su presencia en plataformas sociales clave y aumentar el compromiso con su audiencia.</p>
+                <!-- <p class="small-text"><a href="#">Ver más ➤</a></p> -->
+              </div>
+            </div>
+            <div class="sub-section">
+              <div class="content">
+                <h3>Potencie su Estrategia de Marketing con Nuestro Servicio de <span id="highlighted">Email Marketing</span></h3>
+                <p class="sub-section-text">El email marketing sigue siendo una herramienta poderosa en el arsenal del marketing digital. En innovatInbox, ofrecemos soluciones de email marketing que le ayudarán a llegar a su audiencia de manera efectiva y personalizada, generando resultados tangibles para su negocio.</p>
+                <!-- <p class="small-text"><a href="#">Ver más ➤</a></p> -->
+              </div>
+              <img src="img/services (4).png" alt="Email Marketing Image" class="sub-section-image">
+            </div>
+            <div class="sub-section reverse">
+              <img src="img/services (8).png" alt="Otra Imagen" class="sub-section-image">
+              <div class="content">
+                <h3>Obtenga una Visión Clara y Acciones Accionables con Nuestra <span id="highlighted">Analítica y Seguimiento</span></h3>
+                <p class="sub-section-text">En innovatInbox, entendemos que la analítica y el seguimiento son fundamentales para el éxito de cualquier estrategia digital. Nuestros servicios le proporcionan las herramientas y la información necesarias para evaluar el rendimiento de sus iniciativas digitales y tomar decisiones informadas que impulsen el crecimiento de su negocio.</p>
+                <!-- <p class="small-text"><a href="#">Ver más ➤</a></p> -->
+              </div>
+            </div>
+            <div class="sub-section">
+              <div class="content">
+                <h3>Optimice la Interacción con sus Clientes a través de <span id="highlighted">Correos Transaccionales Personalizados</span></h3>
+                <p class="sub-section-text">Los correos transaccionales son una parte fundamental de la comunicación con los clientes. En innovatInbox, ofrecemos soluciones personalizadas de correos transaccionales que van más allá de la simple confirmación de transacciones, brindando una experiencia de usuario excepcional y fortaleciendo la relación con su marca.</p>
+                <!-- <p class="small-text"><a href="#">Ver más ➤</a></p> -->
+              </div>
+              <img src="img/services (7).png" alt="Email Marketing Image" class="sub-section-image">
+            </div>
+            <div class="sub-section reverse">
+              <img src="img/services (2).png" alt="Otra Imagen" class="sub-section-image">
+              <div class="content">
+                <h3>Transforme su Presencia en Línea con un <span id="highlighted">Rediseño Integral de Aplicaciones y Sitios Web</span></h3>
+                <p class="sub-section-text">El rediseño y la optimización completa de sus aplicaciones y sitios web son pasos cruciales para mantenerse relevante en un entorno digital en constante evolución. En innovatInbox, ofrecemos soluciones personalizadas que revitalizan su presencia en línea, mejoran la funcionalidad y proporcionan una experiencia excepcional para sus usuarios.</p>
+                <!-- <p class="small-text"><a href="#">Ver más ➤</a></p> -->
               </div>
             </div>
           </div>
@@ -141,49 +161,6 @@
 
       </div>
     </section>
-
-  <!-- 
-    <section id="planes-precios" class="pricing-section">
-      <h2 class="section-title">Nuestros planes</h2>
-      <div class="container">
-        <div class="pricing-card">
-          <h2>Básico</h2>
-          <p class="price">$9.99/mes</p>
-          <hr class="separator">
-          <ul class="features-list">
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, assumenda.</li>
-            <li>Función 2</li>
-            <li>Función 3</li>
-            <li>Función 1</li>
-            <li>Función 2</li>
-            <li>Función 3</li>
-          </ul>
-          <button class="btn-buy">Comprar ahora</button>
-        </div>
-        <div class="pricing-card">
-          <h2>Estándar</h2>
-          <p class="price">$19.99/mes</p>
-          <hr class="separator">
-          <ul class="features-list">
-            <li>Función 1</li>
-            <li>Función 2</li>
-            <li>Función 3</li>
-          </ul>
-          <button class="btn-buy">Comprar ahora</button>
-        </div>
-        <div class="pricing-card">
-          <h2>Premium</h2>
-          <p class="price">$29.99/mes</p>
-          <hr class="separator">
-          <ul class="features-list">
-            <li>Función 1</li>
-            <li>Función 2</li>
-            <li>Función 3</li>
-          </ul>
-          <button class="btn-buy">Comprar ahora</button>
-        </div>
-      </div>
-    </section> -->
 
     <section id="contacto" class="contact-section">
       <div class="container">
@@ -221,9 +198,8 @@
     <!-- Footer -->
     <footer class="footer-section">
       <div class="footer-left">
-        <a href="#">Legales</a>
-        <a href="#">Política de privacidad</a>
-        <a href="#">FAQs</a>
+        <a href="./legales.html">Legales</a>
+        <a href="./privacidad.html">Política de privacidad</a>
       </div>
 
       <div class="footer-center">
@@ -278,16 +254,16 @@
       });
 
       // Cierra el menú al hacer clic en un enlace o en cualquier lugar fuera del menú
-      $(document).on('click', function (e) {
-          if (!$(e.target).closest('.navbar').length) {
-              $('.navbar-collapse').collapse('hide');
-          }
-      });
+      // $(document).on('click', function (e) {
+      //     if (!$(e.target).closest('.navbar').length) {
+      //         $('.navbar-collapse').collapse('hide');
+      //     }
+      // });
 
       // Mantiene el menú abierto al hacer clic en el botón hamburguesa
-      $('.navbar-toggler').on('click', function () {
-          $('.navbar-collapse').collapse('show');
-      });
+      // $('.navbar-toggler').on('click', function () {
+      //     $('.navbar-collapse').collapse('show');
+      // });
 
       // Texto parpadeando
       const words = ["Clientes", "Compradores", "Leads", "Llamadas", "Suscriptores"];

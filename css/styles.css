@@ -17,9 +17,40 @@ body {
     margin-top: -10px; 
 }
 
+#navbarNav .options {
+  display: flex;
+}
+
+#navbarNav .options a {
+  color: #333;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+#navbarNav .options a:hover {
+  color: #aa5859;
+}
+
 .navbar-nav .nav-link,
 .navbar-nav .btn {
     margin-top: 10px; 
+}
+
+#highlighted {
+  color: #d3383a;
+}
+
+.subtitle {
+  color: #e07778;
+}
+
+.small-text a {
+  color: #d3383a;
+  transition: all 0.5s;
+}
+
+.small-text a:hover {
+  color: #e2797b;
 }
 
 .custom-btn {
@@ -78,6 +109,28 @@ body {
 
  /* --------------------------------------------------------------- */
 
+ #legales, #privacidad {
+  background: linear-gradient(to bottom right, #fad2d4 30%, #fad2d4 30%, #fff 50%, #fff 100%); 
+  height: calc(100vh - 100px); 
+  width: 100% !important;
+  height: auto;
+} 
+
+#legales, #privacidad .container {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.contentLegales, .contentPrivacidad {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 600px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+/* --------------------------------------------------------------- */
+
 #segunda {
     width: 100% !important;
     background: linear-gradient(to bottom right, #fff 50%, #fad2d4 65%, #fad2d4 100%);
@@ -103,7 +156,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
 
   .logo-img {
@@ -444,6 +496,15 @@ margin-top: 100px;
 }
 
 @media (max-width: 767px) {
+
+  .navbar {
+    height: 125px;
+  }
+  .navbar .container{
+    display: flex;
+    flex-direction: column;
+  }
+
   .about-section {
       margin-top: 100px;
   }

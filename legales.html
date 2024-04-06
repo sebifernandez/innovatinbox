@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovaInbox</title>
+
+    <link rel="shortcut icon" href="img/logo_imagen.png" type="image/x-icon">
+    <link rel="icon" href="img/logo_imagen.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/cd4f08ae47.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          &nbsp;&nbsp;<img src="img/logo-texto.png" alt="InnovatInbox Logo" width="220" >
+        </a>
+
+        <!-- Botón hamburguesa -->
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+
+        <div class="" id="navbarNav">
+          <div class="options">
+            <a class="nav-item nav-link" href="./index.html" >Volver al inicio</a>
+          </div>
+
+          <!-- <div class="navbar-nav ml-auto">
+            <a class="custom-btn outlined-btn" href="#">Iniciar Sesión</a>
+            <a class="custom-btn solid-btn" href="#">Regístrate Gratis</a>
+          </div> -->
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="legales" >
+      <div class="container"> 
+            <h1 class="display-4">Aviso Legal</h1>
+      </div>
+      <div class="contentLegales">
+        Bienvenido a innovatInbox. Somos una empresa especializada en servicios de marketing digital, ofreciendo una amplia gama de soluciones para ayudarte a alcanzar tus objetivos en línea. A continuación, encontrarás nuestras políticas y términos legales relacionados con el uso de nuestro sitio web y los servicios que ofrecemos:<br><br><b>1. Propiedad Intelectual:</b> Todo el contenido, diseño y propiedad intelectual presente en este sitio web son propiedad exclusiva de innovatInbox y están protegidos por las leyes de derechos de autor. Queda estrictamente prohibida la reproducción, distribución o modificación de cualquier parte del contenido sin nuestro consentimiento previo por escrito.<br><br><b>2. Uso del Sitio:</b> Al acceder y utilizar nuestro sitio web, aceptas cumplir con nuestros términos y condiciones de uso. Nos reservamos el derecho de modificar, actualizar o eliminar cualquier parte del contenido del sitio en cualquier momento y sin previo aviso.<br><br><b>3. Privacidad:</b> En innovatInbox, nos tomamos muy en serio la privacidad de nuestros usuarios. Consulta nuestra Política de Privacidad para obtener más información sobre cómo recopilamos, utilizamos y protegemos tus datos personales.<br><br><b>4. Servicios Ofrecidos:</b> Ofrecemos una amplia gama de servicios de marketing digital, que incluyen estrategias de marketing, SEO, SEM, gestión de redes sociales, email marketing, analítica y seguimiento, correos transaccionales, y rediseño y optimización de aplicaciones y sitios web. Cada servicio está sujeto a términos y condiciones específicos que se detallan en nuestros contratos de servicio.<br><br><b>5. Contáctanos:</b> Si tienes alguna pregunta o inquietud sobre nuestros términos legales o servicios, no dudes en ponerte en contacto con nuestro equipo. Estamos aquí para ayudarte.<br><br>Gracias por confiar en innovatInbox como tu socio de marketing digital.
+      </div>
+    </section>
+
+    <section id="segunda">
+      <div class="container" >
+
+        
+  <!-- ---------------------------------------------- -->
+
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="footer-left">
+        <a href="./legales.html">Legales</a>
+        <a href="./privacidad.html">Política de privacidad</a>
+      </div>
+
+      <div class="footer-center">
+        <img src="img/logo-texto.png" alt="Logo de InnovatInbox" class="footer-logo">
+        <hr class="footer-line">
+        <div class="social-icons">
+          <a href="#" class="social-icon" id="twitter-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon" id="instagram-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon" id="linkedin-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p><strong>Contactenos:</strong></p>
+        <p>EMAIL:<br>info@innovatinbox.com</p>
+        <p>TELÉFONO:<br>+54(011)65693654</p>
+      </div>
+    </footer>
+    <div class="bg-light text-center p-3">
+      <p>&copy; 2023 InnovatInbox. Todos los derechos reservados.</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="scripts.js"></script>
+
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const scrollLinks = document.querySelectorAll('[data-scroll]');
+        
+        for (const scrollLink of scrollLinks) {
+          scrollLink.addEventListener('click', smoothScroll);
+        }
+
+        function smoothScroll(e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop,
+              behavior: 'smooth'
+            });
+          }
+        }
+      });
+
+      // Cierra el menú al hacer clic en un enlace o en cualquier lugar fuera del menú
+      // $(document).on('click', function (e) {
+      //     if (!$(e.target).closest('.navbar').length) {
+      //         $('.navbar-collapse').collapse('hide');
+      //     }
+      // });
+
+      // Mantiene el menú abierto al hacer clic en el botón hamburguesa
+      // $('.navbar-toggler').on('click', function () {
+      //     $('.navbar-collapse').collapse('show');
+      // });
+
+      // Texto parpadeando
+      const words = ["Clientes", "Compradores", "Leads", "Llamadas", "Suscriptores"];
+      let index = 0;
+
+      function typeWriter() {
+        const dynamicText = document.getElementById("dynamicText");
+        dynamicText.textContent = words[index].slice(0, dynamicText.textContent.length + 1);
+
+        if (dynamicText.textContent === words[index]) {
+          setTimeout(erase, 1000);
+        } else {
+          setTimeout(typeWriter, 150);
+        }
+      }
+      
+      function erase() {
+        const dynamicText = document.getElementById("dynamicText");
+        dynamicText.textContent = words[index].slice(0, dynamicText.textContent.length - 1);
+
+        if (dynamicText.textContent === "") {
+          index = (index + 1) % words.length;
+          setTimeout(typeWriter, 500);
+        } else {
+          setTimeout(erase, 100);
+        }
+      }
+      
+      typeWriter();
+
+      document.addEventListener('DOMContentLoaded', function () {
+        const enviarBtn = document.getElementById('enviarBtn');
+        const contactForm = document.getElementById('contactForm');
+        enviarBtn.addEventListener('click', function () {
+          // Mostrar alerta con SweetAlert2
+          Swal.fire({
+            icon: 'success',
+            title: 'Mensaje Enviado',
+            text: 'Gracias por contactarte con nosotros.',
+            confirmButtonText: 'OK'
+          });
+          // Limpiar el formulario
+          contactForm.reset();
+        });
+      });
+
+    </script>
+
+
+  </body>
+</html>
